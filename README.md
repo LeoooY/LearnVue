@@ -13,7 +13,7 @@
   0、安装nodeJS  
   1、Vue-cli 3
   # CLI3 组件
-  ## -CLI
+  -   ## CLI
   **CLI** (```@vue/cli```)是一个全局安装的npm包  
   提供 ```vue```命令    
   ```
