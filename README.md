@@ -14,14 +14,27 @@
   1、Vue-cli 3
   # CLI3 组件
   ## CLI
-  **CLI** (@vue/cli)是一个全局安装的npm包  
+  **CLI** (```@vue/cli```)是一个全局安装的npm包  
   提供 ```vue```命令    
   ```
-  vue create
-  vue serve
-  vue ui
+  vue create   创建新项目脚手架
+  vue serve    可用于构建新想法原型
+  vue ui       图形化界面 用于管理创建的项目
   ```
   
   ## CLI服务
+  
+  ```
+  
+  ```
+  
   ## CLI插件
+  
+  ```
+  
+  ```
+  # CLI3 安装
+  
+  # CLI3 快速原型开发
+  
   
