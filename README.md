@@ -10,16 +10,16 @@
   ##### [webpack学习资源](https://github.com/kraaas/webpack-tutorial-collection)  
   ##### [Require.js](http://www.requirejs.cn/)  
   
-  0、安装nodeJS
+  0、安装nodeJS  
   1、Vue-cli 3
   # CLI3 组件
   ## CLI
-  提供 ```vue```命令
-  ···
+  提供 ```vue```命令    
+  ```
   vue create
   vue serve
   vue ui
-  ···
+  ```
   
   ## CLI服务
   ## CLI插件
