@@ -27,17 +27,21 @@
   
   -  ## CLI服务
   **CLI服务**（```@vue/cli-service```）是一个开发环境依赖  
-  一个npm包，局部安装再@vue/cli创建的项目中
+  一个npm包，局部安装在@vue/cli创建的项目中
   
-  ```
+  **CLI服务**构建于 ```webpack```和```webpack-dev-server```之上  
+  包含：
+      -  加载其他CLI插件的核心服务
+      -  针对绝大部分应用优化过的```webpack```插件
   
-  ```
+  ```@vue/cli-service```大致等价于```create-react-app```的```react-script```
+  
+ 
   
   -  ## CLI插件
+  **CLI插件**是vue项目中可选用的npm包  
+    当在项目中运行```vue-cli-service```的命令时，会自动解析并加载，在```pakage.json```中列出所有的cli插件
   
-  ```
-  
-  ```
   # CLI3 安装
   
   # CLI3 快速原型开发
