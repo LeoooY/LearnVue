@@ -9,6 +9,9 @@
   ##### [Vue CookBook](https://cn.vuejs.org/v2/cookbook/)  
   ##### [webpack学习资源](https://github.com/kraaas/webpack-tutorial-collection)  
   ##### [Require.js](http://www.requirejs.cn/)  
+  ##### [Javascript(阮一峰)](https://wangdoc.com/javascript/)
+  ##### [ECMAScript 6(阮一峰)](http://es6.ruanyifeng.com/?search=import&x=0&y=0#README)
+  
   
   0、安装nodeJS  
   1、Vue-cli 3
