@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleEvent.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <div id="EventApp" >
+        <h1>Hello,Leo</h1>
+        <button v-on:click="add(1)">加</button>
+        <button v-on:click="dec(1)">减</button>
+        <button v-on:dblclick="add(1)">加（点两次）</button>
+        <button v-on:dblclick="dec(1)">减（点两次）</button>
+        <button v-on:click="add(10)">加十</button>
+        <button v-on:click="dec(10)">减十</button>
+        <p>My d is {{len}} cm...</p>
+        
+        
+        <div id="canvas" v-on:mousemove="updateXY">
+            {{x}},{{y}}
+            <p :style="sObj">Vue</p>
+        </div>
+    
+    </div>
+
+   
+
+    <script src="demo2Event.js"></script>
+    <script src="mouseBasic.js"></script>
+</body>
+</html>
